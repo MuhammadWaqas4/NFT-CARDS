@@ -1,0 +1,157 @@
+.Main_Div{
+    background-color: #000 !important;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.Nav_header_Main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.Nav_header{
+    width: 80vw;
+}
+.connectButton{
+    background-color: white;
+    color: #000;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 150px;
+    font-weight: bolder;
+}
+.navMain{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    /* background-color: #000;
+    color: white; */
+}
+.navMain>h2{
+    font-weight: bold;
+    color: #fcde67;
+    text-shadow: 4px 4px 8px #fcde67;
+}
+.Bbull_balance{
+    margin-top: 20px;
+    display: flex;
+    justify-content:flex-end;
+    padding: 10px;
+}
+.Bbull_balance_h4_1{
+    display: flex;
+    justify-content: center;
+    background-color: #fcde67;
+    color: #000;
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px 0px 0px 20px;
+    text-shadow: 2px 2px 7px #fff;
+}
+.Bbull_balance_h4_2{
+    display: flex;
+    justify-content: center;
+    background-color: #5bccf6;
+    color: #000;;
+    padding: 10px;
+    width: 130px;
+    border-radius: 0px 20px 20px 0px;
+    text-shadow: 2px 2px 7px #5bccf6;
+}
+.Bbull_cards_main{
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* wdodge-coin */
+.Bbull_cards{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fcde67!important;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(46, 45, 45);
+    box-shadow: 2px 2px 6px #fcde67;
+} 
+.Bbull_cards>h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fcde67;
+    text-shadow: 2px 2px 7px #fcde67;
+}
+.Bbull_cards>h3{
+    margin-top: 10px;
+}
+.buyTicket_Button{
+    background-color: #fcde67;
+    color: #000;
+    text-shadow: 2px 2px 4px #fff;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 150px;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.inpo_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inpo_div>input{
+    /* margin-top: 20px; */
+    border: 4px solid #5bccf6;
+padding: 10px;
+border-radius: 20px;
+width: 370px;
+outline: none;
+}
+.cSoon_w{
+    /* padding: 10px; */
+border-radius: 20px;
+width: 370px;
+outline: none;
+display: flex;
+justify-content: center;
+}
+.text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+@media (max-width:600px) {
+    .inpo_div>input{
+        /* margin-top: 20px; */
+    padding: 10px;
+    border-radius: 20px;
+    width: 300px;
+    outline: none;
+    }
+    .cSoon_w{
+        /* padding: 10px; */
+    border-radius: 20px;
+    width: 300px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    }
+    .Nav_header{
+        width: 100%;
+    }
+    .Bbull_balance{
+        margin-top: 20px;
+        display: flex;
+        justify-content:center;
+        padding: 10px;
+    }
+}
